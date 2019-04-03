@@ -9,7 +9,7 @@
 
 function autoloader($class)
 {
-    echo $class.'<br />';
+    //echo $class.'<br />';
     require_once __DIR__.'/' . $class . '.php';
 }
 spl_autoload_register('autoloader');
